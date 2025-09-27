@@ -9,11 +9,11 @@ A command-line tool for hiding secret messages within BMP images using Least Sig
 * Simple command-line interface
 ## Usage
 ### Encoding
-```
+```sh
 ./lsb_steg -e <source.bmp> <secret.txt> [output.bmp]
 ```
 ### Decoding
-```
+```sh
 ./lsb_steg -d <steged_image.bmp> [output_file]
 ```
 ## Requirements
@@ -21,7 +21,7 @@ A command-line tool for hiding secret messages within BMP images using Least Sig
 * BMP image files
 * Any file type to hide (e.g., .txt, .mp3, .mp4, .pdf)
 ## Build Instructions
-```
+```sh
 gcc MAIN_test_encode.c encode.c decode.c -o lsb_steg
 ```
 ## How It Works
@@ -48,9 +48,10 @@ gcc MAIN_test_encode.c encode.c decode.c -o lsb_steg
 ## Security Note
 Not cryptographically secure. Use for educational purposes only.
 ## Example
-```
+```sh
 # Encode a secret message
 ./lsb_steg -e image.bmp secret_file steged_image.bmp
+
 # Decode the hidden message
 ./lsb_steg -d steged_image.bmp decoded_secret_file
 ```

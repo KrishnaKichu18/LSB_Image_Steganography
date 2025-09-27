@@ -43,8 +43,9 @@ gcc MAIN_test_encode.c encode.c decode.c -o lsb_steg
 2. Verify Magic String
 3. Extract File Extension Size
 4. Extract File Extension
-5. Extract File Size
-6. Extract File Data
+5. Create secret_file using decoded extension
+6. Extract File Size
+7. Extract File Data
 ## Security Note
 Not cryptographically secure. Use for educational purposes only.
 ## Example

@@ -9,7 +9,7 @@ A command-line tool for hiding secret messages within BMP images using Least Sig
 * Simple command-line interface
 ## Usage
 ### Encoding
-```./lsb_steg -e <source.bmp> <secret_file> [output.bmp]```
+```bash ./lsb_steg -e <source.bmp> <secret_file> [output.bmp]```
 ### Decoding
 ```./lsb_steg -d <steged_image.bmp> [output_file]```
 ## Requirements

@@ -1,17 +1,3 @@
-/*
- * Title       : Krishna_M_Mp3_LSB_Image_Steganography_25017E_031
- * Project     : Project_2 - LSB Image Steganography
- * Developer   : Krishna M
- * Date        : 18/09/2025
- * Description : A project to design and implement an Image Steganography tool that allows users to
- *               hide (encode) and retrieve (decode) secret data within BMP image files.
- *               It demonstrates concepts of structures, file handling, bitwise operations,
- *               encoding/decoding algorithms, data parsing, memory management,
- *               and error handling. The project covers the complete workflow of
- *               embedding a secret file into an image and later extracting it
- *               using well-defined steps and verification mechanisms.
- */
-
 #include <stdio.h>
 #include "encode.h"
 #include "decode.h"
